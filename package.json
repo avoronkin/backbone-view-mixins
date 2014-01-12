@@ -1,0 +1,11 @@
+{
+    "name": "backbone-view-mixins",
+    "description": "backbone view mixins",
+    "version": "0.0.1",
+    "engines": {
+        "node": ">= 0.10.x"
+    },
+    "dependencies": {},
+    "devDependencies": {},
+    "private": true
+}
