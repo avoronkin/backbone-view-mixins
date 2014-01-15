@@ -1,11 +1,16 @@
 {
-    "name": "backbone-view-mixins",
-    "description": "backbone view mixins",
-    "version": "0.0.1",
-    "engines": {
-        "node": ">= 0.10.x"
-    },
-    "dependencies": {},
-    "devDependencies": {},
-    "private": true
+  "name": "backbone-view-mixins",
+  "description": "backbone view mixins",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">= 0.10.x"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "~1.17.0",
+    "chai": "~1.8.1",
+    "sinon": "~1.7.3",
+    "browserify": "~3.20.0"
+  },
+  "private": true
 }
