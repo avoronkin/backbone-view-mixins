@@ -10,7 +10,8 @@
     "mocha": "~1.17.0",
     "chai": "~1.8.1",
     "sinon": "~1.7.3",
-    "browserify": "~3.20.0"
+    "browserify": "~3.20.0",
+    "Backbone.Advice": "git://github.com/avoronkin/Backbone.Advice"
   },
   "private": true
 }
