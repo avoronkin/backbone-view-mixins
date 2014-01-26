@@ -1,0 +1,150 @@
+2014-01-26 19:34:53,229 - sauce_connect:558 - INFO - / Starting \
+2014-01-26 19:34:53,236 - sauce_connect:559 - INFO - Please wait for "You may start your tests" to start your tests.
+2014-01-26 19:34:53,255 - sauce_connect:571 - DEBUG - System is 4.0 hours off UTC
+2014-01-26 19:34:53,260 - sauce_connect:573 - DEBUG - options: {'user': 'avoronkin', 'ports': ['39792'], 'domains': None, 'debug_ssh': False, 'tunnel_ports': ['80'], 'allow_unclean_exit': False, 'rest_url': 'https://saucelabs.com/rest/v1', 'logfile': 'sauce_connect.log', 'squid_opts': '', 'boost_mode': True, 'tunnel_identifier': '159982467', 'fast_fail_regexps': '', 'quiet': False, 'latency_log': 150, 'use_ssh_config': False, 'ssh': False, 'se_port': '4445', 'readyfile': None, 'shared_tunnel': False, 'ssh_port': 443, 'direct_domains': '', 'host': '127.0.0.1'}
+2014-01-26 19:34:53,265 - sauce_connect:574 - DEBUG - metadata: {'PythonVersion': '2.5.1', 'OwnerHost': '127.0.0.1', 'Release': '3.0-r28', 'OwnerPorts': ['39792'], 'Ports': ['80'], 'Platform': 'Java-1.7.0_51-Java_HotSpot-TM-_64-Bit_Server_VM,_24.51-b03,_Oracle_Corporation-on-Linux-3.13.0-5-generic-amd64', 'Build': '43', 'ScriptRelease': 43, 'ScriptName': 'sauce_connect'}
+2014-01-26 19:34:53,267 - sauce_connect:576 - INFO - Forwarding: None:['80'] -> 127.0.0.1:['39792']
+2014-01-26 19:34:53,295 - sauce_connect:375 - INFO - Succesfully connected to local server 127.0.0.1:39792 in 14ms
+2014-01-26 19:34:54,414 - sauce_connect:238 - INFO - {"squid_config":null,"use_caching_proxy":true,"metadata":{"PythonVersion":"2.5.1","OwnerHost":"127.0.0.1","Release":"3.0-r28","OwnerPorts":["39792"],"Ports":["80"],"Platform":"Java-1.7.0_51-Java_HotSpot-TM-_64-Bit_Server_VM,_24.51-b03,_Oracle_Corporation-on-Linux-3.13.0-5-generic-amd64","Build":"43","ScriptRelease":43,"ScriptName":"sauce_connect"},"use_kgp":true,"tunnel_identifier":"159982467","shared_tunnel":false,"fast_fail_regexps":null,"ssh_port":443,"direct_domains":null,"domain_names":[]}
+2014-01-26 19:34:58,144 - sauce_connect:250 - INFO - Tunnel remote VM is provisioned (0128b28966474451a0d81a47e8006f1a)
+2014-01-26 19:34:58,482 - sauce_connect:268 - INFO - Tunnel remote VM is booting ..
+2014-01-26 19:35:39,257 - sauce_connect:272 - INFO - Tunnel remote VM is running at maki76112.miso.saucelabs.com
+2014-01-26 19:35:39,292 - sauce_connect:375 - INFO - Succesfully connected to local server 127.0.0.1:39792 in 1ms
+2014-01-26 19:35:39,301 - sauce_connect:646 - INFO - Starting connection to tunnel host...
+2014-01-26 19:35:39,305 - sauce_connect:646 - INFO - Connecting to tunnel host maki76112.miso.saucelabs.com as avoronkin
+2014-01-26 19:35:40,515 - sauce_connect:646 - INFO - Forwarding Selenium with ephemeral port 35529
+2014-01-26 19:35:40,559 - sauce_connect:646 - INFO - Selenium HTTP proxy listening on port 4445
+2014-01-26 19:35:45,497 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2014-01-26 19:35:45,792 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: b3d590b6e4b84b1bac9a411a2303915d
+2014-01-26 19:35:45,801 - sauce_connect:646 - INFO - Connected! You may start your tests.
+2014-01-26 19:36:01,635 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:9999/tests/index.html
+2014-01-26 19:36:01,706 - sauce_connect:0 - INFO - GET http://127.0.0.1:9999/tests/index.html -> 200 (69ms, 510 bytes)
+2014-01-26 19:36:02,161 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:9999/tests/index.html
+2014-01-26 19:36:02,180 - sauce_connect:0 - INFO - GET http://127.0.0.1:9999/tests/index.html -> 200 (19ms, 510 bytes)
+2014-01-26 19:36:06,450 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:9999/tests/index.html
+2014-01-26 19:36:06,453 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:9999/node_modules/mocha/mocha.css
+2014-01-26 19:36:06,466 - sauce_connect:0 - INFO - GET http://127.0.0.1:9999/tests/index.html -> 200 (16ms, 510 bytes)
+2014-01-26 19:36:06,470 - sauce_connect:0 - INFO - GET http://127.0.0.1:9999/node_modules/mocha/mocha.css -> 200 (18ms, 4242 bytes)
+2014-01-26 19:36:06,529 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:9999/tests/browserify-specs-build.js
+2014-01-26 19:36:06,532 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:9999/node_modules/mocha/mocha.js
+2014-01-26 19:36:06,552 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:9999/node_modules/mocha/mocha.css
+2014-01-26 19:36:06,569 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:9999/node_modules/mocha/mocha.js
+2014-01-26 19:36:06,591 - sauce_connect:0 - INFO - GET http://127.0.0.1:9999/node_modules/mocha/mocha.js -> 200 (59ms, 122874 bytes)
+2014-01-26 19:36:06,588 - sauce_connect:0 - INFO - GET http://127.0.0.1:9999/node_modules/mocha/mocha.css -> 200 (35ms, 4242 bytes)
+2014-01-26 19:36:06,634 - sauce_connect:0 - INFO - GET http://127.0.0.1:9999/tests/browserify-specs-build.js -> 200 (103ms, 671106 bytes)
+2014-01-26 19:36:06,668 - sauce_connect:0 - INFO - GET http://127.0.0.1:9999/node_modules/mocha/mocha.js -> 200 (100ms, 122874 bytes)
+2014-01-26 19:36:09,359 - sauce_connect:0 - INFO - disconnected from Sauce Connect server
+2014-01-26 19:36:09,368 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2014-01-26 19:36:09,378 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:9999/tests/browserify-specs-build.js
+2014-01-26 19:36:09,450 - sauce_connect:0 - INFO - GET http://127.0.0.1:9999/tests/browserify-specs-build.js -> 200 (71ms, 671106 bytes)
+2014-01-26 19:36:09,594 - sauce_connect:0 - INFO - old keepalive timer shutting down
+2014-01-26 19:36:18,421 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2014-01-26 19:36:18,427 - sauce_connect:0 - INFO - resending 113 packets
+2014-01-26 19:36:19,875 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: b3d590b6e4b84b1bac9a411a2303915d
+2014-01-26 19:36:19,956 - sauce_connect:0 - INFO - got old packet 7 expected >18
+2014-01-26 19:36:19,964 - sauce_connect:0 - INFO - got old packet 8 expected >18
+2014-01-26 19:36:19,973 - sauce_connect:0 - INFO - got old packet 9 expected >18
+2014-01-26 19:36:19,980 - sauce_connect:0 - INFO - got old packet 10 expected >18
+2014-01-26 19:36:19,989 - sauce_connect:0 - INFO - got old packet 11 expected >18
+2014-01-26 19:36:19,997 - sauce_connect:0 - INFO - got old packet 12 expected >18
+2014-01-26 19:36:20,006 - sauce_connect:0 - INFO - got old packet 13 expected >18
+2014-01-26 19:36:20,013 - sauce_connect:0 - INFO - got old packet 14 expected >18
+2014-01-26 19:36:20,022 - sauce_connect:0 - INFO - got old packet 15 expected >18
+2014-01-26 19:36:20,029 - sauce_connect:0 - INFO - got old packet 16 expected >18
+2014-01-26 19:36:20,038 - sauce_connect:0 - INFO - got old packet 17 expected >18
+2014-01-26 19:36:20,046 - sauce_connect:0 - INFO - got old packet 18 expected >18
+2014-01-26 19:36:20,078 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:9999/node_modules/mocha/mocha.css
+2014-01-26 19:36:20,095 - sauce_connect:0 - INFO - GET http://127.0.0.1:9999/node_modules/mocha/mocha.css -> 200 (17ms, 4242 bytes)
+2014-01-26 19:36:21,395 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:9999/node_modules/mocha/mocha.js
+2014-01-26 19:36:21,397 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:9999/tests/browserify-specs-build.js
+2014-01-26 19:36:21,430 - sauce_connect:0 - INFO - GET http://127.0.0.1:9999/node_modules/mocha/mocha.js -> 200 (33ms, 122874 bytes)
+2014-01-26 19:36:21,463 - sauce_connect:0 - INFO - GET http://127.0.0.1:9999/tests/browserify-specs-build.js -> 200 (67ms, 671106 bytes)
+2014-01-26 19:36:36,463 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:9999/favicon.ico
+2014-01-26 19:36:36,480 - sauce_connect:0 - INFO - GET http://127.0.0.1:9999/favicon.ico -> 404 (19ms, 24 bytes)
+2014-01-26 19:36:45,079 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:9999/favicon.ico
+2014-01-26 19:36:45,092 - sauce_connect:0 - INFO - GET http://127.0.0.1:9999/favicon.ico -> 404 (12ms, 24 bytes)
+2014-01-26 19:36:51,434 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:9999/favicon.ico
+2014-01-26 19:36:51,446 - sauce_connect:0 - INFO - GET http://127.0.0.1:9999/favicon.ico -> 404 (12ms, 24 bytes)
+2014-01-26 19:36:54,851 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:9999/favicon.ico
+2014-01-26 19:36:54,864 - sauce_connect:0 - INFO - GET http://127.0.0.1:9999/favicon.ico -> 404 (12ms, 24 bytes)
+2014-01-26 19:37:47,788 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:9999/tests/index.html
+2014-01-26 19:37:47,798 - sauce_connect:0 - INFO - GET http://127.0.0.1:9999/tests/index.html -> 200 (11ms, 510 bytes)
+2014-01-26 19:37:53,322 - sauce_connect:0 - INFO - Sauce Connect connection stalled! 0/86 acks, 5537ms since last recv, 5000ms timeout exceeded, min ack: 5000
+2014-01-26 19:37:53,334 - sauce_connect:0 - INFO - disconnected from Sauce Connect server
+2014-01-26 19:37:53,338 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2014-01-26 19:38:02,311 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2014-01-26 19:38:02,316 - sauce_connect:0 - INFO - resending 5 packets
+2014-01-26 19:38:05,305 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: b3d590b6e4b84b1bac9a411a2303915d
+2014-01-26 19:38:07,058 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:9999/tests/index.html
+2014-01-26 19:38:07,065 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:9999/node_modules/mocha/mocha.css
+2014-01-26 19:38:07,082 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:9999/node_modules/mocha/mocha.js
+2014-01-26 19:38:07,086 - sauce_connect:0 - INFO - GET http://127.0.0.1:9999/tests/index.html -> 200 (28ms, 510 bytes)
+2014-01-26 19:38:07,095 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:9999/tests/browserify-specs-build.js
+2014-01-26 19:38:07,095 - sauce_connect:0 - INFO - GET http://127.0.0.1:9999/node_modules/mocha/mocha.css -> 200 (28ms, 4242 bytes)
+2014-01-26 19:38:07,128 - sauce_connect:0 - INFO - GET http://127.0.0.1:9999/node_modules/mocha/mocha.js -> 200 (46ms, 122874 bytes)
+2014-01-26 19:38:07,163 - sauce_connect:0 - INFO - GET http://127.0.0.1:9999/tests/browserify-specs-build.js -> 200 (67ms, 671106 bytes)
+2014-01-26 19:38:09,861 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:9999/node_modules/mocha/mocha.css
+2014-01-26 19:38:09,867 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:9999/node_modules/mocha/mocha.js
+2014-01-26 19:38:09,888 - sauce_connect:0 - INFO - GET http://127.0.0.1:9999/node_modules/mocha/mocha.js -> 200 (20ms, 122874 bytes)
+2014-01-26 19:38:09,908 - sauce_connect:0 - INFO - GET http://127.0.0.1:9999/node_modules/mocha/mocha.css -> 200 (49ms, 4242 bytes)
+2014-01-26 19:38:11,572 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:9999/tests/browserify-specs-build.js
+2014-01-26 19:38:11,617 - sauce_connect:0 - INFO - GET http://127.0.0.1:9999/tests/browserify-specs-build.js -> 200 (45ms, 671106 bytes)
+2014-01-26 19:38:25,592 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:9999/favicon.ico
+2014-01-26 19:38:25,601 - sauce_connect:0 - INFO - GET http://127.0.0.1:9999/favicon.ico -> 404 (10ms, 24 bytes)
+2014-01-26 19:38:27,328 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:9999/favicon.ico
+2014-01-26 19:38:27,338 - sauce_connect:0 - INFO - GET http://127.0.0.1:9999/favicon.ico -> 404 (10ms, 24 bytes)
+2014-01-26 19:38:38,766 - sauce_connect:0 - INFO - Request started: GET http://ie9cvlist.ie.microsoft.com/IE9CompatViewList.xml
+2014-01-26 19:38:40,298 - sauce_connect:0 - INFO - GET http://ie9cvlist.ie.microsoft.com/IE9CompatViewList.xml -> 200 (1533ms, 147288 bytes)
+2014-01-26 19:38:46,698 - sauce_connect:0 - INFO - Request started: HEAD http://redir.opera.com/speeddials/portal/
+2014-01-26 19:38:46,703 - sauce_connect:0 - INFO - Request started: HEAD http://redir.opera.com/speeddials/booking/
+2014-01-26 19:38:46,992 - sauce_connect:0 - INFO - HEAD http://redir.opera.com/speeddials/booking/ -> 302 (289ms, 0 bytes)
+2014-01-26 19:38:46,992 - sauce_connect:0 - INFO - HEAD http://redir.opera.com/speeddials/portal/ -> 302 (293ms, 0 bytes)
+2014-01-26 19:38:47,062 - sauce_connect:0 - INFO - Request started: HEAD http://redir.opera.com/speeddials/amazon/
+2014-01-26 19:38:47,065 - sauce_connect:0 - INFO - Request started: HEAD http://redir.opera.com/speeddials/facebook/
+2014-01-26 19:38:47,062 - sauce_connect:0 - INFO - Request started: HEAD http://redir.opera.com/speeddials/myopera/
+2014-01-26 19:38:47,076 - sauce_connect:0 - INFO - Request started: HEAD http://redir.opera.com/speeddials/market/us
+2014-01-26 19:38:47,207 - sauce_connect:0 - INFO - HEAD http://redir.opera.com/speeddials/amazon/ -> 302 (145ms, 0 bytes)
+2014-01-26 19:38:47,210 - sauce_connect:0 - INFO - HEAD http://redir.opera.com/speeddials/facebook/ -> 302 (145ms, 0 bytes)
+2014-01-26 19:38:47,273 - sauce_connect:0 - INFO - HEAD http://redir.opera.com/speeddials/market/us -> 302 (196ms, 0 bytes)
+2014-01-26 19:38:47,279 - sauce_connect:0 - INFO - HEAD http://redir.opera.com/speeddials/myopera/ -> 302 (217ms, 0 bytes)
+2014-01-26 19:38:47,898 - sauce_connect:0 - INFO - Request started: HEAD http://redir.opera.com/bookmarks/download
+2014-01-26 19:38:47,900 - sauce_connect:0 - INFO - Request started: HEAD http://redir.opera.com/speeddials/ebay
+2014-01-26 19:38:47,986 - sauce_connect:0 - INFO - HEAD http://redir.opera.com/bookmarks/download -> 302 (87ms, 0 bytes)
+2014-01-26 19:38:47,996 - sauce_connect:0 - INFO - HEAD http://redir.opera.com/speeddials/ebay -> 302 (96ms, 0 bytes)
+2014-01-26 19:38:48,250 - sauce_connect:0 - INFO - Request started: HEAD http://redir.opera.com/bookmarks/kayak
+2014-01-26 19:38:48,253 - sauce_connect:0 - INFO - Request started: HEAD http://redir.opera.com/bookmarks/reddit
+2014-01-26 19:38:48,253 - sauce_connect:0 - INFO - Request started: HEAD http://redir.opera.com/bookmarks/fastmail
+2014-01-26 19:38:48,335 - sauce_connect:0 - INFO - HEAD http://redir.opera.com/bookmarks/kayak -> 302 (86ms, 0 bytes)
+2014-01-26 19:38:48,345 - sauce_connect:0 - INFO - HEAD http://redir.opera.com/bookmarks/reddit -> 302 (92ms, 0 bytes)
+2014-01-26 19:38:48,345 - sauce_connect:0 - INFO - HEAD http://redir.opera.com/bookmarks/fastmail -> 302 (92ms, 0 bytes)
+2014-01-26 19:38:49,025 - sauce_connect:0 - INFO - Request started: HEAD http://redir.opera.com/bookmarks/bigpoint/
+2014-01-26 19:38:49,029 - sauce_connect:0 - INFO - Request started: HEAD http://redir.opera.com/bookmarks/amazon/
+2014-01-26 19:38:49,030 - sauce_connect:0 - INFO - Request started: HEAD http://redir.opera.com/bookmarks/sports.opera.com
+2014-01-26 19:38:49,131 - sauce_connect:0 - INFO - HEAD http://redir.opera.com/bookmarks/sports.opera.com -> 302 (101ms, 0 bytes)
+2014-01-26 19:38:49,132 - sauce_connect:0 - INFO - HEAD http://redir.opera.com/bookmarks/amazon/ -> 302 (103ms, 0 bytes)
+2014-01-26 19:38:49,132 - sauce_connect:0 - INFO - HEAD http://redir.opera.com/bookmarks/bigpoint/ -> 302 (108ms, 0 bytes)
+2014-01-26 19:38:49,602 - sauce_connect:0 - INFO - Request started: HEAD http://redir.opera.com/bookmarks/shopping
+2014-01-26 19:38:49,602 - sauce_connect:0 - INFO - Request started: HEAD http://redir.opera.com/speeddials/previews/market/us
+2014-01-26 19:38:49,769 - sauce_connect:0 - INFO - HEAD http://redir.opera.com/bookmarks/shopping -> 302 (166ms, 0 bytes)
+2014-01-26 19:38:49,769 - sauce_connect:0 - INFO - HEAD http://redir.opera.com/speeddials/previews/market/us -> 302 (166ms, 0 bytes)
+2014-01-26 19:38:50,404 - sauce_connect:0 - INFO - Request started: HEAD http://redir.opera.com/speeddials/previews/booking/ru
+2014-01-26 19:38:50,405 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:9999/tests/index.html
+2014-01-26 19:38:50,418 - sauce_connect:0 - INFO - GET http://127.0.0.1:9999/tests/index.html -> 200 (13ms, 510 bytes)
+2014-01-26 19:38:50,535 - sauce_connect:0 - INFO - HEAD http://redir.opera.com/speeddials/previews/booking/ru -> 302 (132ms, 0 bytes)
+2014-01-26 19:38:50,967 - sauce_connect:0 - INFO - Request started: HEAD http://redir.opera.com/speeddials/previews/booking/ru
+2014-01-26 19:38:51,124 - sauce_connect:0 - INFO - HEAD http://redir.opera.com/speeddials/previews/booking/ru -> 302 (156ms, 0 bytes)
+2014-01-26 19:38:51,838 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:9999/node_modules/mocha/mocha.css
+2014-01-26 19:38:51,842 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:9999/node_modules/mocha/mocha.js
+2014-01-26 19:38:51,849 - sauce_connect:0 - INFO - GET http://127.0.0.1:9999/node_modules/mocha/mocha.css -> 200 (10ms, 4242 bytes)
+2014-01-26 19:38:51,845 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:9999/tests/browserify-specs-build.js
+2014-01-26 19:38:51,898 - sauce_connect:0 - INFO - GET http://127.0.0.1:9999/node_modules/mocha/mocha.js -> 200 (58ms, 122874 bytes)
+2014-01-26 19:38:51,911 - sauce_connect:0 - INFO - GET http://127.0.0.1:9999/tests/browserify-specs-build.js -> 200 (66ms, 671106 bytes)
+2014-01-26 19:38:53,878 - sauce_connect:0 - INFO - Request started: GET http://127.0.0.1:9999/favicon.ico
+2014-01-26 19:38:53,888 - sauce_connect:0 - INFO - GET http://127.0.0.1:9999/favicon.ico -> 404 (10ms, 24 bytes)
+2014-01-26 19:39:18,111 - sauce_connect:0 - INFO - Sauce Connect connection stalled! 43/69 acks, 4228ms since last recv, 3440ms timeout exceeded, min ack: 549
+2014-01-26 19:39:18,117 - sauce_connect:0 - INFO - disconnected from Sauce Connect server
+2014-01-26 19:39:18,122 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2014-01-26 19:39:31,476 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2014-01-26 19:39:31,483 - sauce_connect:0 - INFO - resending 3 packets
+2014-01-26 19:39:32,155 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: b3d590b6e4b84b1bac9a411a2303915d
+2014-01-26 19:39:35,598 - sauce_connect:0 - INFO - received SIGTERM

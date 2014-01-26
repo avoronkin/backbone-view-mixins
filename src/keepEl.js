@@ -3,7 +3,7 @@
 var keepEl = function () {
     this.before('initialize', function (options) {
         options = options || {};
-        this.keepEl = options.keepEl ? options.keepEl : true;
+        this.keepEl = !!options.keepEl;
     });
 
     this.clobber({

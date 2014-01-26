@@ -3,15 +3,19 @@
 <head>
     <title></title>
     <meta charset="utf-8" />
-    <link rel="stylesheet"  href="lib/mocha.css"/>
-    <script src="lib/mocha.js"></script>
+    <link rel="stylesheet" href="../node_modules/mocha/mocha.css" />
+    <script src="../node_modules/mocha/mocha.js"></script>
     <script>mocha.setup('bdd');</script>
 </head>
 <body>
     <div id="mocha"></div>
-    <script src="build.js"></script>
+    <script src="browserify-specs-build.js"></script>
     <script>
-        mocha.run();
+        if (window.mochaPhantomJS) {
+            mochaPhantomJS.run();
+        }else {
+            mocha.run();
+        }
     </script>
 </body>
 </html>
